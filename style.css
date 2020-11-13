@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    padding: 3vh;
+    margin-bottom: 1vh;
+}
+ .AAA{
+     font-size:3vw ;
+ }
+
+.link{
+    font-size:1vw ;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.indexExempel{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr,1fr;
+}
+
+.indexContent{
+    grid-column: 2;
+    text-align: center;
+}
+
+.exeRubrik{
+    padding: 0.5vw;
+}
+
+.exempel{
+    padding: 5%;
+    font-size: 1vw;;
+}
