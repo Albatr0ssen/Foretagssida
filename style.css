@@ -9,11 +9,11 @@ header{
     margin-bottom: 1vh;
 }
  .AAA{
-     font-size:3vw ;
+    font-size:3vw;
  }
 
 .link{
-    font-size:1vw ;
+    font-size:1vw;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
 }
@@ -21,13 +21,14 @@ header{
 
 main{
     display: grid;
-    grid-template-columns: 10% 80% 10%;
+    grid-template-columns: 1fr 60% 1fr;
 }
 
 .indexExempel{
     display:grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr,1fr;
+    padding: 2vh;
 }
 
 .indexContent{
@@ -40,6 +41,15 @@ main{
 }
 
 .exempel{
+    display: flex;
     padding: 5%;
-    font-size: 1vw;;
+    font-size: 1vw;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+footer{
+    text-align: center;
+    padding: 3vh;
+    font-size: 3vw;
 }
