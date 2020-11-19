@@ -5,22 +5,30 @@
 }
 
 header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     text-align: center;
-    padding: 3vh;
-    margin-bottom: 1vh;
+    margin-top: 3vh;
     font-family: 'Frank Ruhl Libre', serif;
     font-style: italic;
 }
  .AAA{
+    grid-row: 1;
+    color: black;
     font-family: 'Teko', sans-serif;
     font-style: normal;
-    font-size:3vw;
+    font-size:5vw;
  }
 
 .link{
-    font-size:1vw;
+    color: black;
+    font-size:1.2vw;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
+}
+
+.links{
+    grid-row: 2;
 }
 
 .introduktion{
@@ -38,10 +46,27 @@ main{
     grid-template-columns: 1fr 60% 1fr;
 }
 
+
+.brödtext{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-column: 2;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.kontakt{
+    display:grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 1fr,1fr;
+    padding: 2vh;
+    font-size: 1vw;
+}
+
 .indexContent{
     grid-column: 2;
     text-align: center;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
 }
 
 .indexExempel{
@@ -63,9 +88,12 @@ main{
 }
 
 footer{
+    display: grid;
+    grid-template-rows: 1fr;
     text-align: center;
-    padding: 6vh;
-    font-size: 3vw;
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+    font-size: 1vw;
     font-family: 'Frank Ruhl Libre', serif;
     font-style: italic;
 }
